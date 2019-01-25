@@ -1,0 +1,147 @@
+<template>
+  <div class="bar">
+    <el-row :gutter="24" class="top-container">
+      <el-col :span="4" class="logo-container" v-on:click.native="goHome">
+        <div class="logo">
+          <svg
+            width="40px"
+            height="auto"
+            viewBox="0 0 80 61"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <polygon
+                id="path-1"
+                points="6.59118471e-05 0.14676488 79.9506174 0.14676488 79.9506174 60.0756793 6.59118471e-05 60.0756793"
+              ></polygon>
+            </defs>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Desktop-HD" transform="translate(-192.000000, -160.000000)">
+                <g id="Group-6" transform="translate(192.000000, 160.000000)">
+                  <path
+                    d="M19.0001271,5 C17.8954693,5 17,5.89527199 17,7 C17,8.10472801 17.8954693,9 19.0001271,9 C20.1047849,9 21,8.10472801 21,7 C21,5.89527199 20.1047849,5 19.0001271,5"
+                    id="Fill-1"
+                    fill="#FFFFFF"
+                  ></path>
+                  <g id="Group-5">
+                    <mask id="mask-2" fill="white">
+                      <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-4"></g>
+                    <path
+                      d="M62.8815422,48.0442858 C62.7487229,48.0041701 62.6108916,47.983623 62.4722892,47.9832316 L46.8111807,47.9450727 C39.1732048,37.0328104 26.8267952,30.522516 13.6111807,30.4904234 L13.5080482,30.4915975 C13.2325783,29.7192229 12.9950843,28.9362812 12.7930602,28.1449249 L18.6718072,19.2552783 C20.0711325,17.1391244 20.2056867,14.530819 19.0320964,12.2778802 C17.858506,10.0247458 15.6591807,8.66922535 13.1485301,8.65180925 L6.07440964,8.60288762 L9.43749398,6.26795622 C12.4400964,4.18291649 15.9473735,3.08198421 19.5841928,3.08198421 L19.6289157,3.08198421 C23.9115181,3.09255128 27.9336867,4.79502389 30.9544096,7.87649931 L33.7968193,10.7759863 C29.858506,11.3925945 26.6789398,14.1482519 25.4581205,18.1490625 C24.0593735,22.7324318 25.6821205,27.4426061 29.5922892,30.1487548 C35.6967711,34.3732351 66.2656386,44.7968682 67.5639518,45.2385327 L67.5687711,45.2238562 L73.4723855,51.2457171 L62.8815422,48.0442858 Z M43.8041446,57.1403817 L40.9790843,57.1403817 L37.6630361,57.1403817 L35.5641446,57.1403817 L41.5886265,51.024787 L45.988241,51.0355497 L45.9886265,50.8784135 L49.9633735,50.8880021 L43.8041446,57.1403817 Z M14.6274699,33.4439198 C25.8721928,33.7734559 36.362988,39.1577702 43.306988,48.0937945 L37.8606265,48.0804878 C27.9257831,48.0562227 18.9999036,42.3707469 14.6274699,33.4439198 Z M6.9146988,11.5442515 L13.1288675,11.5871069 C14.5569157,11.5970869 15.8083855,12.3682874 16.4759518,13.6498383 C17.1435181,14.9315849 17.066988,16.4154757 16.2710361,17.6191434 L12.0765301,23.9621259 C12.0015422,23.1296755 11.9631807,22.290376 11.9653012,21.445206 L11.979759,15.3593556 C11.9811084,14.8331546 11.7048675,14.346678 11.2559036,14.0840667 L6.9146988,11.5442515 Z M35.513253,13.5799782 L36.548241,13.5825222 L62.981012,40.5444047 C53.6929157,37.2766358 35.4980241,30.6833703 31.221012,27.7232205 C27.7733012,25.3374106 27.4496386,21.5422665 28.2201446,19.0175192 C29.0228434,16.3869055 31.3538313,13.5799782 35.4908916,13.5799782 L35.513253,13.5799782 Z M79.5296386,53.2630493 L33.0041446,5.80594038 C29.4384578,2.16871528 24.6908916,0.159014855 19.6358554,0.146686605 C15.3916145,0.138272086 11.3048675,1.41512654 7.80491566,3.84516158 L0.62939759,8.82714436 C0.219180723,9.11206391 -0.0181204819,9.59071311 0.00115662651,10.0949972 C0.0200481928,10.5990857 0.293012048,11.0581662 0.723855422,11.3100148 L9.08626506,16.2025688 L9.07373494,21.4381613 C9.06486747,25.1671634 9.73706024,28.7979308 11.0689157,32.2367298 L11.0687229,32.2420133 C11.0650602,32.4427877 11.1020723,32.6423879 11.177253,32.8280944 C15.6019277,43.7417266 25.9155663,50.8445597 37.5151807,51.0083493 L31.474506,57.1403817 L25.3333976,57.1403817 L25.3333976,60.0756793 L37.6630361,60.0756793 L40.9790843,60.0756793 L53.3089157,60.0756793 L53.3089157,57.1403817 L47.8937831,57.1403817 L54.0433735,50.8979821 L62.2565783,50.9181378 L78.0921446,55.7048255 C78.2288193,55.7461153 78.3676145,55.7660754 78.5048675,55.7660754 C79.003759,55.7660754 79.4799036,55.502877 79.7459277,55.0510369 C80.085012,54.4749358 79.9959518,53.7387632 79.5296386,53.2630493 Z"
+                      id="Fill-3"
+                      fill="#FFFFFF"
+                      mask="url(#mask-2)"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <label style="font-weight:600">SPARROW</label>
+      </el-col>
+      <el-col :span="2" :offset="12" class="product-name">
+        <router-link
+          class="nav-button"
+          to="/"
+          :class="this.selected === 'Overview' ? 'selected':''"
+          v-on:click.native="setSelected('Overview')"
+        >Overview</router-link>
+      </el-col>
+      <el-col :span="2" class="product-name">
+        <router-link
+          class="nav-button"
+          :class="this.selected === 'Activity' ? 'selected':''"
+          v-on:click.native="setSelected('Activity')"
+          to="/account"
+        >Activity</router-link>
+      </el-col>
+      <el-col :span="1" class="notifications">
+        <i class="fas fa-bell"></i>
+      </el-col>
+      <el-col :span="2" style="margin-right:80px">
+        <img
+          src="https://intelligenttrading.org/wp-content/uploads/2018/04/benjamin-lakoff-headshot.jpg"
+          class="avatar"
+        >
+      </el-col>
+    </el-row>
+  </div>
+</template>
+<script>
+export default {
+  name: "TopBar",
+  data() {
+    return {
+      selected: "Overview"
+    };
+  },
+  methods: {
+    goHome: function() {
+      this.selected = "Overview";
+      this.$router.push("/");
+    },
+    setSelected: function(selection) {
+      this.selected = selection;
+    }
+  },
+  mounted() {
+    let currentPage = window.location.hash.split("/").pop();
+    if (currentPage === "account") this.setSelected("Activity");
+  }
+};
+</script>
+<style>
+.bar {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+  margin: 0px;
+  background: cornflowerblue;
+  color: whitesmoke;
+}
+
+.notifications {
+  padding: 10px;
+  margin: 0px 30px;
+  border-left: whitesmoke 1px solid;
+  border-right: whitesmoke 1px solid;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.nav-button {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-button.selected {
+  border-bottom: 1px solid white;
+}
+</style>
+
