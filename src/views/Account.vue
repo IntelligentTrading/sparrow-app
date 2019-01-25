@@ -24,7 +24,34 @@
     <el-row :gutter="24">
       <el-col :span="12">
         <el-row style="margin-bottom:30px">
-          <el-card header="Pending"></el-card>
+          <el-card header="Pending">
+            <div style="padding:20px 0px;border-bottom: 1px solid whitesmoke;">
+              <el-row>
+                <el-col :span="2" style="color:lightgrey;text-align:left;padding-top:15px">
+                  <i class="fas fa-circle"></i>
+                </el-col>
+                <el-col :span="16" style="display: flex; flex-direction:column; text-align:left">
+                  <el-row>Recurring Investment</el-row>
+                  <el-row style="padding: 10px 0px;">
+                    <i class="fas fa-circle" style="color:cornflowerblue;margin-right:20px"></i>
+                    <i class="fas fa-circle" style="color:cornflowerblue;margin-right:20px"></i>
+                    <i
+                      class="fas fa-circle"
+                      style="color:lightgray;margin-right:20px"
+                    ></i>
+                    <label style="font-style: italic;color: gray;">Transferring</label>
+                  </el-row>
+                </el-col>
+                <el-col :span="6" style="color:grey;text-align:right;padding-top: 15px;padding-right: 20px;">$50.00</el-col>
+              </el-row>
+            </div>
+            <div style="display: flex;margin: 20px 0px 0px 0px;font-size: 14px;">
+              <label>Total Pending:</label>
+              <label
+                style="color: cornflowerblue;font-weight: 600;margin-left: auto;margin-right: 20px;"
+              >$50.00</label>
+            </div>
+          </el-card>
         </el-row>
         <el-row>
           <el-card>
@@ -45,7 +72,7 @@
               <transaction :transaction-data="transaction"></transaction>
             </el-row>
           </div>
-          <el-pagination background layout="prev, pager, next" :total="30" style='padding:10px'></el-pagination>
+          <el-pagination background layout="prev, pager, next" :total="30" style="padding:10px"></el-pagination>
         </el-card>
       </el-col>
     </el-row>
