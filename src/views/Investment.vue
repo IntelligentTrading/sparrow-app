@@ -51,6 +51,10 @@ export default {
   letter-spacing: 1px;
   font-weight: 500;
 }
+.el-carousel__container{
+  height: 450px;
+  overflow: hidden
+}
 
 .invest {
   background-image: linear-gradient(#5a86d6, cornflowerblue);
