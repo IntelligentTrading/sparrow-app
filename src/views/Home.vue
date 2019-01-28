@@ -1,9 +1,16 @@
 <template>
   <div class="home">
     <el-row style="display:flex; justify-content:flex-end">
-      <el-button class="payment">
-        <i class="fas fa-hand-holding-usd"></i> One-Time investment
-      </el-button>
+      <router-link to="investment">
+        <el-button class="payment">
+          <i class="fas fa-hand-holding-usd"></i> Invest
+        </el-button>
+      </router-link>
+      <router-link to="portfolio">
+        <el-button class="payment">
+          <i class="fas fa-wallet"></i> Portfolio Allocation
+        </el-button>
+      </router-link>
       <el-button class="payment">
         <i class="fas fa-piggy-bank"></i> Withdraw
       </el-button>
@@ -27,7 +34,6 @@
       </el-col>
       <el-col :span="12">
         <account-strength></account-strength>
-
       </el-col>
     </el-row>
   </div>
@@ -54,8 +60,8 @@ export default {
   padding: 20px 200px;
 }
 
-.el-card__header{
-  text-align: left
+.el-card__header {
+  text-align: left;
 }
 
 .el-card.chart {
@@ -69,6 +75,7 @@ export default {
   background: white;
   color: cornflowerblue;
   font-weight: 100;
+  margin: 5px
 }
 </style>
 

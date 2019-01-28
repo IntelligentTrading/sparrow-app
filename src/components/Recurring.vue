@@ -1,10 +1,10 @@
 <template>
-  <div>1 time</div>
+  <div>Recurring Investment</div>
 </template>
 
 <script>
 // @ is an alias to /src
 export default {
-  name: 'onetime',
+  name: 'recurring',
 }
 </script>

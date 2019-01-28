@@ -20,20 +20,12 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/Account.vue')
     },
     {
-      path: '/onetime',
-      name: 'onetime',
+      path: '/investment',
+      name: 'investment',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/OneTime.vue')
-    },
-    {
-      path: '/recurring',
-      name: 'recurring',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/Recurring.vue')
+      component: () => import(/* webpackChunkName: "about" */ './views/Investment.vue')
     },
     {
       path: '/portfolio',

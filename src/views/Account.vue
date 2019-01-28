@@ -28,21 +28,23 @@
             <div style="padding:20px 0px;border-bottom: 1px solid whitesmoke;">
               <el-row>
                 <el-col :span="2" style="color:lightgrey;text-align:left;padding-top:15px">
-                  <i class="fas fa-circle"></i>
+                  <i class="far fa-clock"></i>
                 </el-col>
                 <el-col :span="16" style="display: flex; flex-direction:column; text-align:left">
                   <el-row>Recurring Investment</el-row>
                   <el-row style="padding: 10px 0px;">
-                    <i class="fas fa-circle" style="color:cornflowerblue;margin-right:20px"></i>
-                    <i class="fas fa-circle" style="color:cornflowerblue;margin-right:20px"></i>
-                    <i
-                      class="fas fa-circle"
-                      style="color:lightgray;margin-right:20px"
-                    ></i>
+                    <i class="fas fa-circle step-done"></i>
+                    <i class="fas fa-circle step-done"></i>
+                    <i class="fas fa-circle step-done"></i>
+                    <i class="fas fa-circle step-done"></i>
+                    <i class="fas fa-circle step-pending"></i>
                     <label style="font-style: italic;color: gray;">Transferring</label>
                   </el-row>
                 </el-col>
-                <el-col :span="6" style="color:grey;text-align:right;padding-top: 15px;padding-right: 20px;">$50.00</el-col>
+                <el-col
+                  :span="6"
+                  style="color:grey;text-align:right;padding-top: 15px;padding-right: 20px;"
+                >$50.00</el-col>
               </el-row>
             </div>
             <div style="display: flex;margin: 20px 0px 0px 0px;font-size: 14px;">
@@ -147,6 +149,20 @@ export default {
   margin-left: auto;
   color: cornflowerblue;
   font-weight: 500;
+}
+
+.step-done {
+  color: cornflowerblue;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.step-pending {
+  color: lightgrey;
+  margin-right: 10px;
+  font-size: 10px;
+  padding-bottom: 1px;
+  vertical-align: middle;
 }
 </style>
 
