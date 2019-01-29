@@ -6,11 +6,6 @@
           <i class="fas fa-hand-holding-usd"></i> Invest
         </el-button>
       </router-link>
-      <router-link to="portfolio">
-        <el-button class="payment">
-          <i class="fas fa-wallet"></i> Portfolio Allocation
-        </el-button>
-      </router-link>
       <el-button class="payment">
         <i class="fas fa-piggy-bank"></i> Withdraw
       </el-button>
@@ -26,7 +21,7 @@
           <portfolio-option label="Portfolio" value="Conservative" to="portfolio"/>
         </el-row>
         <el-row>
-          <portfolio-option label="Recurring Investment" value="$50, Monthly" to="investment"/>
+          <portfolio-option label="Recurring Investment" value="$50, Monthly" to="investment?type=recurring"/>
         </el-row>
         <el-row>
           <share></share>

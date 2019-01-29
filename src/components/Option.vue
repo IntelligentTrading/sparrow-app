@@ -1,13 +1,15 @@
 <template>
-  <el-card class="section">
-    <el-row>
-      <el-col :span="12" style="text-align:left">{{this.optionLabel}}</el-col>
-      <el-col :span="10" class="ptype">{{this.optionValue}}</el-col>
-      <el-col :span="2" class="ptype">
-        <i class="fas fa-chevron-right"></i>
-      </el-col>
-    </el-row>
-  </el-card>
+  <router-link :to="this.$props.to">
+    <el-card class="section">
+      <el-row>
+        <el-col :span="12" style="text-align:left">{{this.optionLabel}}</el-col>
+        <el-col :span="10" class="ptype">{{this.optionValue}}</el-col>
+        <el-col :span="2" class="ptype">
+          <i class="fas fa-chevron-right"></i>
+        </el-col>
+      </el-row>
+    </el-card>
+  </router-link>
 </template>
 
 <script>
@@ -17,7 +19,7 @@ export default {
   data() {
     return {
       optionLabel: this.label,
-      optionValue: this.value,
+      optionValue: this.value
     };
   }
 };
